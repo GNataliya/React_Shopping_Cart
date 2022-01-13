@@ -1,0 +1,59 @@
+.itemBox, .buttonsBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.itemBox {
+    border-bottom: 1px solid lightgray;
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.pic{
+    width: 60px;
+    height: 60px;
+}
+
+.info {
+    margin-right: 20px;
+    width: 40%;
+}
+
+.price, .buttonsBox {
+    width: 10%;
+}
+
+.count {
+    width: 30%;
+    text-align: center;
+}
+
+.summ {
+    width: 17%;
+    text-align: center;
+}
+
+.buttonsBox button, .trash {
+    height: 24px;
+    width: 24px;
+}
+
+.trash {
+    background-color: white;
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 7%;
+}
+
+.trash:hover {
+    background-color: rgb(243, 243, 243) ;
+}
+
+.trash_pic {
+    height: 20px;
+    width: 20px;
+    margin-left: -5px;
+}

@@ -1,0 +1,35 @@
+.cart {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.amount {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btn {
+    margin: 30px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnReturn {
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: #f1f0f8;
+    border: 1.5px solid #e5e2f7;
+}
+
+.btnReturn span {
+    color: black;
+}
+
+.btnReturn:hover {
+    background-color: #d8d5f1;
+    border: 1px solid  #b0a9e7;
+    cursor: pointer;
+}
