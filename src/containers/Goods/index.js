@@ -2,17 +2,14 @@ import style from './style.module.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-// import { loadingGoods, failLoadingGoods, addGoodsAction } from '../../actions/goods';
 import * as goodsActions from '../../actions/goods';
 import { addToBasket } from '../../actions/basket';
-
 import Loading from '../../components/Loading';
 
 function Goods() {
     
     const dispatch = useDispatch();
     const products = useSelector(state =>  state.goods );
-    // console.log('7 - state in componenet', products);
     
     useEffect (  () => {
 
@@ -27,7 +24,6 @@ function Goods() {
     }
     
     const card = products.goods.map( item => 
-        // console.log('id', item.id),
         <div className={style.item} key={item.id} >
             <div className={style.goods_pic}> 
                 <img src={item.image} alt='img' className={style.image} /> 

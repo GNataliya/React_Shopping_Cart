@@ -7,8 +7,6 @@ const initialState = {
 
 
 const reducer = (state = initialState, action) => {
-    // console.log('9 - action in Reducer', action)
-    // console.log('10 - state in Reducer', state)
 
     const findItemIndx = (id) => {
         return state.items.findIndex(item => item.id === id);
@@ -17,10 +15,6 @@ const reducer = (state = initialState, action) => {
     switch (action.type){        
         case 'ADD_TO_BASKET':
         {
-            // console.log('11 - action type in Reducer', action.type)
-            // console.log('12 - action.payload in Reducer', action.payload)
-            // console.log('state add items', state)
-
             const index = findItemIndx(action.payload.id);
             
             if(index !== -1 ){

@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';  // native redux function
-import goodsReducer from './goods';   // import reducer from file foods
+import goodsReducer from './goods';   // import reducer from file goods
 import basketReducer from './basket';
 
 import { persistReducer } from 'redux-persist';
@@ -15,7 +15,6 @@ export default function createReducer(injectReducers)  {
         
         ... injectReducers
     });
-    // return rootReducer;       - without persist use it
 
 
     const persistConfig = {      // create it for LocalStorage
