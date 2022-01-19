@@ -25,6 +25,7 @@ For storage order's data is using the Redux store and localStorage. Local Storag
 
 ## View
 
-<img width="945" alt="image" src="https://user-images.githubusercontent.com/80199130/150190753-1803f831-efce-48b5-a81b-a6651206aae4.png">
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/80199130/150193962-091f56aa-fd55-4ae6-b9fe-1b5e7377988c.png">
+
 
 
